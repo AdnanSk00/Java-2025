@@ -1,16 +1,16 @@
 package tka_april14_Encapsultaion;
 
-public class Student {
+public class C1_Student {
 	int id;
 	String name;
 	String course;
 	float per;
 	
-	Student(){
+	C1_Student(){
 		System.out.println("**Welcome Student()");
 	}
 	
-	Student(int id, String name, String course, float per){
+	C1_Student(int id, String name, String course, float per){
 		System.out.println("**Welcome Student(, , , ,)");
 		this.id = id;
 		this.name = name;

@@ -2,17 +2,17 @@ package tka_april14_Encapsultaion;
 
 // Setters / Getters :-
 
-public class Account {
-	int accNo;
-	String name;
-	long mob;
+public class C3_Account {
+	private int accNo;
+	private String name;
+	private long mob;
 	private double balance;		// Secure - private - data security
 	
-	Account(){
+	C3_Account(){
 		
 	}
 
-	public Account(int accNo, String name, long mob, double balance) {
+	public C3_Account(int accNo, String name, long mob, double balance) {
 //		super();
 		this.accNo = accNo;
 		this.name = name;
@@ -20,7 +20,14 @@ public class Account {
 		this.balance = balance;
 	}
 	
-	void setBalance(double amt) {		// setters
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	
+	public void setBalance(double amt) {		// setters
 		if(amt > 0) {
 			this.balance = amt;
 			System.out.println(amt + " > Balance is Updated\n");			
@@ -30,11 +37,11 @@ public class Account {
 		}
 	}
 	
-	double getBalance(){				// getters
+	public double getBalance(){				// getters
 		return balance;
 	}
 	
-	void display() {
+	public void display() {
 		System.out.println("Account : " + accNo);
 		System.out.println("Name : " + name);
 		System.out.println("Mobile : " + mob);
@@ -51,3 +58,19 @@ public class Account {
 // same class
 //	> blueprint -- define data and methods
 //	> method use for that data members
+
+
+//PureEncapsulation - class desing
+
+//class Account{
+//	private acc
+//	private name
+//	private balance
+	
+//	No-arg constructor
+//	Para constructor
+	
+//	getters/setters
+	
+//	toString() / display()
+//}

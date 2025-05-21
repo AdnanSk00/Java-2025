@@ -1,10 +1,10 @@
 package tka_april14_Encapsultaion;
 
-public class JSPM_CLgMain {
+public class C2_JSPM_CLgMain {
 	public static void main(String[] args) {
 		
 		// 1. create
-		Student s1 = new Student(1, "SRK", "Acting", 99.99f);	// 2. create
+		C1_Student s1 = new C1_Student(1, "SRK", "Acting", 99.99f);	// 2. create
 		
 		
 			// 2. display()
