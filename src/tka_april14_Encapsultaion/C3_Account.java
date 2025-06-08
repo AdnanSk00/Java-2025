@@ -60,7 +60,7 @@ public class C3_Account {
 //	> method use for that data members
 
 
-//PureEncapsulation - class desing
+//PureEncapsulation - class design
 
 //class Account{
 //	private acc

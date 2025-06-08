@@ -8,26 +8,26 @@ import java.util.List;
 public class C94_EmpListDemo {
 	public static void main(String[] args) {
 				
-		List <C4_Student> EmpList = new ArrayList<>();
+		List <C93_EmployeeHW> EmpList = new ArrayList<>();
 		
-		System.out.println("Sorted By Id");
-		EmpList.add(new C93_EmployeeHW(101, "Smith", "Developer", 75.000f));
-		EmpList.add(new C93_EmployeeHW(102, "Allen", "Manager", 68.000f));
-		EmpList.add(new C93_EmployeeHW(103, "John", "Analyst", 84.000f));
+		EmpList.add(new C93_EmployeeHW(101, "Smith", "Developer", 75000.0));
+		EmpList.add(new C93_EmployeeHW(103, "Allen", "Manager", 68000.0));
+		EmpList.add(new C93_EmployeeHW(101, "John", "Analyst", 84000.0));
+		EmpList.add(new C93_EmployeeHW(104, "Salt", "Businessman", 92000.0));
 		
 		System.out.println("Sort By ID : ");
-		Comparator <C4_Student>idComp = new C8_StudIdComp();
-		Collections.sort(studTreeSet, idComp);
-		studTreeSet.forEach(System.out::println);
+		Comparator <C93_EmployeeHW>idComp = new C95_EmpIdComp();
+		Collections.sort(EmpList, idComp);
+		EmpList.forEach(System.out::println);
 
 		System.out.println("\nSort By Name : ");
-		Comparator <C4_Student>nameComp = new C9_StudNameComp();
-		Collections.sort(studTreeSet, nameComp);
-		studTreeSet.forEach(System.out::println);
+		Comparator <C93_EmployeeHW>nameComp = new C96_EmpNameComp();
+		Collections.sort(EmpList, nameComp);
+		EmpList.forEach(System.out::println);
 		
-		System.out.println("\nSort By Per Desc: ");
-		Comparator <C4_Student>perComp = new C91_StudPerComp();
-		Collections.sort(studTreeSet, perComp);
-		studTreeSet.forEach(System.out::println);
+		System.out.println("\nSort By Salary Desc: ");
+		Comparator <C93_EmployeeHW>perComp = new C97_EmpSalComp();
+		Collections.sort(EmpList, perComp);
+		EmpList.forEach(System.out::println);
 	}
 }

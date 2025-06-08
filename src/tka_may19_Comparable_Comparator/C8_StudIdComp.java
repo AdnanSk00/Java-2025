@@ -13,7 +13,7 @@ public class C8_StudIdComp implements Comparator<C4_Student>{
 		return new Integer(s1.id).compareTo(new Integer(s2.id));
 	}
 	
-//	public int compare(Student s1, Student s2) {
+//	public int compare(C4_Student s1, C4_Student s2) {
 //		if(s1.id == s2.id)
 //			return 0;
 //		else if(s1.id > s2.id)
@@ -21,6 +21,5 @@ public class C8_StudIdComp implements Comparator<C4_Student>{
 //		else 
 //			return -1;
 //	}
-	
 	
 }

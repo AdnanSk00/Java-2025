@@ -11,6 +11,8 @@ public class C9_StudentListDemo {
 		C8_Student s3 = new C8_Student(56, "Babar", 198.6f);
 		C8_Student s4 = null;
 	
+//		System.out.println(s1);
+		
 		List<C8_Student> studArrayList = new ArrayList<>();
 				
 		studArrayList.add(s1);

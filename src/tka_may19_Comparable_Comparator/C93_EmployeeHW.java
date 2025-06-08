@@ -4,12 +4,12 @@ public class C93_EmployeeHW {
 	int id;
 	String name;
 	String role;
-	float salary;
+	double salary;
 	
 	public C93_EmployeeHW() {
 		
 	}
-	public C93_EmployeeHW(int id, String name, String role, float salary) {
+	public C93_EmployeeHW(int id, String name, String role, double salary) {
 		super();
 		this.id = id;
 		this.name = name;

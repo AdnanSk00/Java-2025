@@ -10,9 +10,9 @@ public class C5_StudentSetDemo {
 		
 //		Set<Student> studTreeSet = new TreeSet<>();
 //				
-//		studTreeSet.add(new Student(45, "Rohit", 264.8f));	// error
-//		studTreeSet.add(new Student(56, "Babar", 198.6f));
-//		studTreeSet.add(new Student(18, "Virat", 183.2f));
+//		studTreeSet.add(new C4_Student(45, "Rohit", 264.8f));	// error
+//		studTreeSet.add(new C4_Student(56, "Babar", 198.6f));
+//		studTreeSet.add(new C4_Student(18, "Virat", 183.2f));
 //		studTreeSet.forEach(System.out::println);
 		
 		Set<C4_Student> studHashSet = new HashSet<>();

@@ -10,6 +10,7 @@ public class C91_StudPerComp implements Comparator<C4_Student>{
 //		Float f2 = new Float(s2.per);
 //		return f1.compareTo(f2);
 		
+//		return new Float(s2.per).compareTo(new Float(s1.per));
 		return new Float(s1.per).compareTo(new Float(s2.per));
 	}
 	
@@ -22,6 +23,5 @@ public class C91_StudPerComp implements Comparator<C4_Student>{
 //		else 
 //			return -1;
 //	}
-	
 	
 }

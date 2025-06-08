@@ -30,13 +30,13 @@ public class C1_RemoveDuplicateFromList{
 		nums.add(55);
 		System.out.println("nums > " + nums);
 				
-//		Set<Integer> setNums = new 	HashSet<>();
+//		Set<Integer> setNums = new HashSet<>();
 //		for(Integer n : nums) {		// step 1
 //			setNums.add(n);
 //		}
 //		setNums.addAll(nums);		// step 2
 		
-//		Set<Integer> setNums = new 	HashSet<>(nums);		// step 3
+//		Set<Integer> setNums = new HashSet<>(nums);		// step 3
 		
 //		System.out.println("setNums > " + setNums.toStrig());
 		
@@ -47,7 +47,12 @@ public class C1_RemoveDuplicateFromList{
 //		List<Integer> uniqNumsList = new ArrayList<>(setNums);
 //		uniqNumsList.addAll(setNums);
 		
+//		List<Integer> uniqNumsList = new ArrayList<>(nums);
+//		uniqNumsList.addAll(new HashSet<>(nums));
+		
 //		System.out.println("uniqNumsList > " + uniqNumsList);
+		
+		System.out.println("uniqNumsList > " + new ArrayList<>(new HashSet<>(nums)));
 		
 	}
 }

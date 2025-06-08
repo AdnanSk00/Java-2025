@@ -1,14 +1,14 @@
 package tka_may19_Comparable_Comparator;
 
 public class C4_Student {
-//public class Student implements Comparable<Student>{		// sorting by int
+//public class C4_Student implements Comparable<C4_Student>{		// sorting by int
 	
 	int id;				// primitive --> extra functionality
 	String name;		// class obj
 	float per;
 	
 //	@Override			// byDefault Comparable.compareTo()
-//	public int compareTo(Student s) {  // sorting by int - Only one input
+//	public int compareTo(C4_Student s) {  // sorting by int - Only one input
 //		if(this.id == s.id)
 //			return 0;
 //		else if(this.id > s.id)
