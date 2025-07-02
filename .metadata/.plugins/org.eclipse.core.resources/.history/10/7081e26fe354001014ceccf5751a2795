@@ -1,0 +1,15 @@
+package tka_april16_super_this;
+
+public class C8_Testpq{
+	
+	public static void main(String[] args) {
+		
+		C7_q objQ = new C7_q();
+		
+		objQ.m1();
+		
+		objQ.m1();
+		objQ.m2();
+		objQ.m3();
+	}
+}

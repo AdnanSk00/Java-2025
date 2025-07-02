@@ -1,0 +1,16 @@
+package tka_april21_Abstraction;
+
+public abstract class C11_currentAccount {
+	
+	int accounNo;
+	String name;
+	float balance;
+	
+	public C11_currentAccount() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	abstract void deposite();
+	abstract void withdraw();
+	
+}

@@ -1,0 +1,35 @@
+package tka_april15_Inheritance;
+
+public class C2_Student extends C1_Person {
+
+//	access --> id, name, age
+	String course;
+	float per;
+
+	public C2_Student() {
+//		super();
+		System.out.println("*********");
+	}
+
+	public C2_Student(int id, String name, int age, String course, float per) {
+//		System.out.println("$ == course, per, == $");
+		
+//		this.id = id;
+//		this.name = name;
+//		this.age = age;
+//		C1_Person p2 = new C1_Person(1, "Raj", 18);
+		
+//		super();					// Person(){Constructor}
+		super(id, name, age);		// Person(id, name, age){Constructor}
+		this.course = course;
+		this.per = per;
+	}
+	
+	void m1() {
+		System.out.println("Hello m1");
+	}
+
+	void display() {
+		System.out.println("Student : " + id + " " + name + " " + age + " " + course + " " + per);
+	}
+}

@@ -1,0 +1,9 @@
+package tka_april24_Static;
+
+public class C3_Printer{
+	
+	void installDriver() {
+		System.out.println("Installing drivers...");
+	}
+}
+

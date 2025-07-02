@@ -1,0 +1,25 @@
+package tka_april21_Abstraction;
+
+public class C10_savingAccount extends C09_Account{
+
+	float minBalance = 1000;
+	
+	@Override
+	void deposite() {
+		if(1==2) {
+			
+		}
+	}
+
+	@Override
+	void withdraw() {
+		
+	}
+	
+	@Override
+	void display() {
+		
+	}
+	
+	
+}

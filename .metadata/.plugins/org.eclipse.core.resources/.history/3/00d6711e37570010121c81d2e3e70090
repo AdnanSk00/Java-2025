@@ -1,0 +1,21 @@
+package tka_april24_Static;
+
+public class C3_Printer{
+	
+//	public C3_Printer() {}
+//	void installDriver() {}
+	
+	static void m1() {
+		System.err.println("**Installing drivers...");		
+	}
+	void print() {
+		System.out.println("Printing pages...");
+	}
+	
+	void scanDocuments() {
+		System.out.println("Scanning documents...");
+	}
+	
+//	void fillingInk() {}
+}
+

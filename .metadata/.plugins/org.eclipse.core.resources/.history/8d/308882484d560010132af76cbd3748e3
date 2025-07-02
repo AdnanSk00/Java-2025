@@ -1,0 +1,6 @@
+package tka_april21_Abstraction;
+
+public abstract class C11_currentAccount extends C09_Account {
+	
+	
+}

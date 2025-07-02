@@ -1,0 +1,23 @@
+package tka_may2;
+
+import java.util.Scanner;
+
+public class C92_TestArrOpretions {
+	public static void main(String[] args) {
+        C91_ArrayOperations arr = new C91_ArrayOperations();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter operations : ");
+        int opr = sc.nextInt();
+        
+        switch (opr) {
+		case 1: {
+			System.out.println();
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+        arr.addAllElements();
+
+    }
+}

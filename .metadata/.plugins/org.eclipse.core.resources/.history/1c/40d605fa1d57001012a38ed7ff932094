@@ -1,0 +1,9 @@
+package tka_may05_String;
+
+public class TestString {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package tka_may05_String;
+
+public class C6_TestString {
+    void toLowerCase(C6_TestString s) {
+    	
+    }
+}

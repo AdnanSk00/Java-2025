@@ -1,0 +1,11 @@
+package tka_april21_Abstraction;
+
+public class C12_TestAccounts {
+	
+	public static void main(String[] args) {
+		
+		C11_currentAccount obj1 = new C11_currentAccount();
+	}
+	
+	
+}

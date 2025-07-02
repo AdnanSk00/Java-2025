@@ -1,0 +1,26 @@
+package tka_may2;
+
+import java.util.Scanner;
+
+public class C92_TestArrOpretions {
+	public static void main(String[] args) {
+        C91_ArrayOperations arrOpr = new C91_ArrayOperations();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter operations : \n1. Add All Elements \n2. Add Element at Fist Index");
+        int opr = sc.nextInt();
+        
+        switch (opr) {
+		case 1: {
+			arrOpr.addAllElements();
+			break;
+		}
+		case 2: {
+			arrOpr.addEleFirstIndex();;
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: ");
+		}
+
+    }
+}

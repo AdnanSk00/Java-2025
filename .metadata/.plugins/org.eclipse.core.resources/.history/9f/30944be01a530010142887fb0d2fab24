@@ -1,0 +1,9 @@
+package tka_april14_Mumbai;
+
+
+public class C3_TestB{
+	
+	C2_B obj = new C2_B();
+	obj.m2();
+	
+}

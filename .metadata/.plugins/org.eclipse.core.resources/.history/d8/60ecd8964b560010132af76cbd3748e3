@@ -1,0 +1,20 @@
+package tka_april21_Abstraction;
+
+public abstract class C6_Manager {
+	
+//	public C6_Manager() {
+//	}
+
+	void direction() {		
+		System.out.println("Assigning instructions...");
+	}
+	
+	abstract void assignTask();
+	
+	abstract void salaryWithdraw(float salary);
+	
+	abstract void reportSubmit();
+	
+	
+	
+}

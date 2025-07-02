@@ -1,0 +1,10 @@
+package tka_may2;
+
+public class C92_TestArrOpretions {
+	public static void main(String[] args) {
+        C10_ArrayOperations arr = new C10_ArrayOperations();
+
+        arr.addAllElements();
+
+    }
+}

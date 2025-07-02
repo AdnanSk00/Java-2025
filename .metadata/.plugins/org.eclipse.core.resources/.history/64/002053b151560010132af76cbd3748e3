@@ -1,0 +1,16 @@
+package tka_april21_Abstraction;
+
+public abstract class C09_Account {
+	
+	int accountNo;
+	String name;
+	float balance;
+
+	abstract void deposite(int accountNo, String name, float balance);
+	abstract void withdraw();
+	
+	void display() {
+		
+	}
+	
+}

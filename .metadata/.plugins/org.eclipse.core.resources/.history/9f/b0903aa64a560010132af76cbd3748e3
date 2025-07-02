@@ -1,0 +1,10 @@
+package tka_april21_Abstraction;
+
+
+public class C8_TestEmployee{
+	public static void main(String[] args) {
+		
+		C8_TestEmployee obj = new C8_TestEmployee();
+	}
+	
+}

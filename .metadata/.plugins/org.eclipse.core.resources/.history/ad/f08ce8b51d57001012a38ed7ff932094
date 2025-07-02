@@ -1,0 +1,13 @@
+package tka_may05_String;
+
+public class C5_String {
+	
+    public C5_String(String s) {
+	
+    }
+
+	void toLowerCase(C5_String s) {
+    	String toLowercase = s.toString() + 32;
+    	System.out.println(toLowercase);
+    }
+}

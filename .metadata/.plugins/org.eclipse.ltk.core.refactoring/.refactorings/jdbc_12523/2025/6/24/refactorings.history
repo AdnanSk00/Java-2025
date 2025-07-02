@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;jdbc_12523&apos;&#x0D;&#x0A;- Original project: &apos;jdbc_12523&apos;&#x0D;&#x0A;- Original element: &apos;jdbc_12523/src/com.mysql.cj.jdbc&apos;" description="Delete element" element1="/src&lt;com.mysql.cj.jdbc" element2="/src&lt;com.mysql.cj" element3="/src&lt;com.mysql" element4="/src&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1749824601675" subPackages="false" version="1.0"/>
+</session>

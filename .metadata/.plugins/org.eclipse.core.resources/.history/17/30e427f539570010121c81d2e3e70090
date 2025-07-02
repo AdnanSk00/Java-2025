@@ -1,0 +1,18 @@
+package tka_april24_Static;
+
+public class C3_A{
+	
+	static {
+		System.err.println("statc {...}");				
+	}
+	
+	{
+		System.out.println("instance {...}");
+	}
+	
+	C3_A(){
+		System.out.println("C	static int port = 3333;\r\n"
+				+ "onstructor() { }");
+	}
+}
+

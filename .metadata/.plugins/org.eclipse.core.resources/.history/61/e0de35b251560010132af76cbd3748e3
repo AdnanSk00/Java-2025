@@ -1,0 +1,22 @@
+package tka_april21_Abstraction;
+
+public abstract class C09_Account {
+	
+	int accountNo;
+	String name;
+	float balance;
+
+	public C09_Account(int accountNo, String name, float balance) {
+		super();
+		this.accountNo = accountNo;
+		this.name = name;
+		this.balance = balance;
+	}
+	abstract void deposite(int accountNo, String name, float balance);
+	abstract void withdraw();
+	
+	void display() {
+		
+	}
+	
+}

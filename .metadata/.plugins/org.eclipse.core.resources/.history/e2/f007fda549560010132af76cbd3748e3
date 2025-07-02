@@ -1,0 +1,13 @@
+package tka_april21_Abstraction;
+
+
+public class C7_Employee extends C6_Manager{
+
+	@Override
+	void assignTask() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

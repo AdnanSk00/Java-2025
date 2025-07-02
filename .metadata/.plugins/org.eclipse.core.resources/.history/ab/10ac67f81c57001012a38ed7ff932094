@@ -1,0 +1,11 @@
+package tka_may05_String;
+
+public class C6_TestString {
+
+	public static void main(String[] args) {
+		
+		C5_String s = new C5_String("");
+		s.toLowerCase();
+	}
+	
+}

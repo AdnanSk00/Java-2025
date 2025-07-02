@@ -1,0 +1,30 @@
+package tka_april24_Static;
+
+// Static - A single copy storage
+// static - Belongs to the class instead of instance of class
+
+public class C1_Student{
+	int id;
+	String name;
+	static int clgCode;
+	
+	public C1_Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public C1_Student(int id, String name, int clgCode) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.clgCode = clgCode;
+	}
+
+	@Override
+	public String toString() {
+		return "[" + id + ", " + name + ", " + clgCode + "]";
+	}
+	
+	
+	
+}
+

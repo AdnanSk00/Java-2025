@@ -1,0 +1,18 @@
+package tka_april24_Static;
+
+public class C5_Z{
+	
+	static {
+		System.err.println("statc {...}");				
+	}
+	
+	{
+		System.out.println("instance {...}");
+	}
+	
+	C5_Z(){
+		System.out.println("C	static int port = 3333;\r\n"
+				+ "onstructor() { }");
+	}
+}
+

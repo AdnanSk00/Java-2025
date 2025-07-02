@@ -1,0 +1,28 @@
+package tka_may2;
+
+import java.util.Scanner;
+
+public class C92_TestArrOpretions {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+        C91_ArrayOperations arrOpr = new C91_ArrayOperations();
+        
+        do {
+	        System.out.print("=*=*= Array Operations Menu =*=*= \n1. Add All Elements \n2. Add Element at Fist Index \n3. Add Element at Last Index \n4. Add Element at Given Index \n5. Delete Element at Given Index \n6. Display Array \n7. Exit \n\nEnter your choice : ");
+	        int opr = sc.nextInt();
+	        
+	        switch (opr) {
+			case 1: arrOpr.addAllElements(); break;
+			case 2: arrOpr.addEleFirstIndex(); break;
+			case 3: arrOpr.addEleLastIndex(); break;
+			case 4: arrOpr.addEleGivenIndex(); break;
+			case 5: arrOpr.deleteEleGivenIndex(); break;
+			case 6: arrOpr.display(); break;
+			case 7: System.exit(0);
+			default: System.out.println("Out of choice ..."); break;
+			}
+        }while(true);
+
+    }
+}

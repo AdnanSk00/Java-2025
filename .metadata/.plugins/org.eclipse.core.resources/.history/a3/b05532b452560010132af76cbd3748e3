@@ -1,0 +1,23 @@
+package tka_april21_Abstraction;
+
+public class C10_savingAccount extends C09_Account{
+
+	public C10_savingAccount(int accountNo, String name, float balance) {
+		super(accountNo, name, balance);
+	}
+	
+	@Override
+	void deposite() {
+		System.out.println(balance +" Deposited successfully");
+	}
+
+	@Override
+	void withdraw() {
+		
+	}
+	
+	void display() {
+		
+	}
+	
+}

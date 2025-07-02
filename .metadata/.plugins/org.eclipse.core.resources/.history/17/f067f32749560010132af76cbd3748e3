@@ -1,0 +1,5 @@
+package tka_april21_Abstraction;
+
+public abstract class C6_Manager {
+	abstract void assignTask();
+}

@@ -1,0 +1,18 @@
+package tka_april21_Abstraction;
+
+public class C11_currentAccount extends C09_Account {
+
+	@Override
+	void deposite() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void withdraw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

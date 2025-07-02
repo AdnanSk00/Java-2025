@@ -1,0 +1,15 @@
+package tka_april21_Abstraction;
+
+
+public class C8_TestEmployee{
+	public static void main(String[] args) {
+		
+		C7_Employee obj = new C7_Employee();		// JVM makes constructor
+		
+		obj.direction();
+		obj.assignTask();
+		obj.salaryWithdraw(70000);
+		obj.reportSubmit();
+	}
+	
+}

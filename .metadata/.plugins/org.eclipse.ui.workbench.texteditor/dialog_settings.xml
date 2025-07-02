@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="447"/>
+		<item key="DIALOG_Y_ORIGIN" value="240"/>
+	</section>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="textEditor.getAction(&quot;COPY&quot;).run"/>
+			<item value="CUT"/>
+		</list>
+	</section>
+</section>

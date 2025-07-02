@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="tka_june5_REVISION.C1"/>
+    <fullyQualifiedTypeName name="tka_april29_Pattern.C1"/>
+    <fullyQualifiedTypeName name="tka_june5_REVISION.C1_MyClass"/>
+    <fullyQualifiedTypeName name="tka_june5_REVISION.C3_Emp"/>
+    <fullyQualifiedTypeName name="tka_april14_Mumbai.C1_B"/>
+    <fullyQualifiedTypeName name="tka_april29_Pattern.C5"/>
+    <fullyQualifiedTypeName name="tka_april14_Encapsultaion.C5_A"/>
+    <fullyQualifiedTypeName name="tka_april14_Mumbai.C2_B"/>
+    <fullyQualifiedTypeName name="tka_april29_Pattern.C6"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C6_Manager"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C8_TestEmployee"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C7_Employee"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C09_Account"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C11_currentAccount"/>
+    <fullyQualifiedTypeName name="tka_april21_Abstraction.C10_savingAccount"/>
+    <fullyQualifiedTypeName name="tka_april22_Interface.C5_A"/>
+    <fullyQualifiedTypeName name="tka_april23_Interface_MultipleInheritance.C9_Employee"/>
+    <fullyQualifiedTypeName name="tka_may05_String.C5_String"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C2_TestStudent"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C1_Student"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C3_Printer"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C3_PrinterDriver"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C3_A"/>
+    <fullyQualifiedTypeName name="tka_april24_Static.C5_Z"/>
+</qualifiedTypeNameHistroy>

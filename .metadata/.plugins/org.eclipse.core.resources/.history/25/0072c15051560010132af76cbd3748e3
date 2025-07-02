@@ -1,0 +1,15 @@
+package tka_april21_Abstraction;
+
+public abstract class C09_Account {
+	
+
+	abstract void deposite(int accountNo, String name, float balance;);
+	abstract void withdraw();
+	
+	void display() {
+		System.out.println("Account No : " + this.accountNo);
+		System.out.println("Name : " + this.name);
+		System.out.println("Balance : " + this.accountNo);
+	}
+	
+}

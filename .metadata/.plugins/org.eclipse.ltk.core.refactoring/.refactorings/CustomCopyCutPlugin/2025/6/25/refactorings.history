@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CustomCopyCutPlugin&apos;&#x0D;&#x0A;- Original project: &apos;CustomCopyCutPlugin&apos;&#x0D;&#x0A;- Original element: &apos;CustomCopyCutPlugin/src/org.eclipse.jface.text&apos;" description="Delete element" element1="/src&lt;org.eclipse.jface.text" element2="/src&lt;org.eclipse.jface" element3="/src&lt;org.eclipse" element4="/src&lt;org" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1750148163324" subPackages="false" version="1.0"/>
+</session>

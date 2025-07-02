@@ -1,0 +1,18 @@
+package tka_april24_Static;
+
+public class C4_TestPrinter{
+	
+	public static void main(String[] args) {
+		
+		C3_Printer espn = new C3_Printer();
+		espn.print();
+		espn.print();
+		espn.print();
+		espn.scanDocuments();
+		espn.scanDocuments();
+		espn.print();
+		espn.scanDocuments();
+		espn.fillingInk();
+	}
+}
+

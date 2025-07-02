@@ -1,0 +1,31 @@
+package tka_april21_Abstraction;
+
+public abstract class C6_Manager {
+	
+	int id;
+	double salary;
+	
+	public C6_Manager() {
+		this(2, 7000);
+		System.out.println("hello");
+	}
+
+	public C6_Manager(int id, double salary) {
+		System.out.println("kaise ho?");
+		this.id = id;
+		this.salary = salary;
+	}
+
+	void direction() {		
+		System.out.println("Assigning instructions...");
+	}
+	
+	abstract void assignTask();
+	
+	abstract void salaryWithdraw(float salary);
+	
+	abstract void reportSubmit();
+	
+	
+	
+}
