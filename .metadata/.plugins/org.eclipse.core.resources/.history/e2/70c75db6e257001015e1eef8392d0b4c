@@ -1,6 +1,6 @@
 package tka_may12_ExceptionHandling;
 
-public class MyWebsite {
+public class C3_MyWebsite {
 
 	public void login() {
 		System.out.println("1. Login...");

@@ -4,7 +4,7 @@ public class A {
 	
 	public static void main(String[] args) {
 		
-		MyWebsite ww = new MyWebsite();
+		C3_MyWebsite ww = new C3_MyWebsite();
 		
 		ww.login();
 		ww.homepage();
