@@ -1,0 +1,9 @@
+package tka_april25_Static_Revision;
+
+public class C7_TestPQ {
+
+	public static void main(String[] args) {
+		
+		C6_Q obj = new C6_Q();
+	}
+}

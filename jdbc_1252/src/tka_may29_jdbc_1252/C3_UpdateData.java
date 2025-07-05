@@ -18,7 +18,7 @@ public class C3_UpdateData {
 		
 		Statement st = con.createStatement();	// new StatementImp();
 		
-		String query = "update student set per = 90.67 where id = 2";
+		String query = "update student set per = 50.14 where id = 15";
 //		String query = "update student set name = 'sugar' where sid = 9";
 //		String query = "update student set age = 18 where sid = 15";
 		

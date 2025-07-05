@@ -1,0 +1,14 @@
+package tka_april25_Static_Revision;
+
+// Can we override static method? --> No
+// Can we override constructor? --> No
+
+public class C5_P {
+	
+	public C5_P() {}	// Constructor(){}
+	
+	static void m1() {
+		System.out.println("Hello---");
+	}
+	
+}

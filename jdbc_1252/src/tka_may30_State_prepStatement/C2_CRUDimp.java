@@ -42,8 +42,8 @@ public class C2_CRUDimp {
 			
 //			query = "select * from product";
 //			query = "select * from student";
-//			query = "select * from food";
-			query = "select * from student2";
+			query = "select * from food";
+//			query = "select * from student2";
 				
 			rs = st.executeQuery(query);		// DQL -- select  arr[][]
 //			System.out.println(rs);						// point to columns name row
@@ -53,11 +53,11 @@ public class C2_CRUDimp {
 				
 //			Note:- row data index start 0,1,2... while column start 1,2,3...
 			
-//			System.out.println("Id Name Price Quantity");
-			System.out.println("Id  Name  Per");
+			System.out.println("Id Name Price Quantity");
+//			System.out.println("Id  Name  Per");
 			while(rs.next()) {			
-//				System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  " + rs.getFloat(3) + "  " + rs.getString(4));
-				System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  " + rs.getFloat(3));
+				System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  " + rs.getFloat(3) + "  " + rs.getString(4));
+//				System.out.println(rs.getInt(1) + "  " + rs.getString(2) + "  " + rs.getFloat(3));
 			}
 			System.out.println("\n***** thanks ****");
 		} catch (SQLException e) {
@@ -75,8 +75,8 @@ public class C2_CRUDimp {
 //			query = "update student set per = 90.67 where sid = 2";
 //			query = "update student set sid = 19 where name = 'Roy'";
 //			query = "update food set price = 150 where name = 'Biryani'";
-			query = "update food set Quantity = 'full' where name = 'Biryani'";
-//			query = "update food set Quantity = 'half' where name = 'Paneer'";
+//			query = "update food set Quantity = 'full' where name = 'Biryani'";
+			query = "update food set Quantity = 'half' where name = 'Paneer'";
 			
 			rowCount = st.executeUpdate(query);		// DML -- update
 			

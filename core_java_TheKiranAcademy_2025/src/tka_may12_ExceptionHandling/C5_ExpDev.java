@@ -11,8 +11,13 @@ public class C5_ExpDev {
 			
 			int a = 1 / 0;				
 		}
-//		catch (ArithmeticException e) {
-		catch (Exception e) {
+		catch (ArithmeticException e) {		// RuntimeException
+			e.printStackTrace();
+		}
+		catch (NullPointerException e) {	// RuntimeException
+			e.printStackTrace();
+		}
+		catch (Exception e) {				// Exception e = new RuntimeException() ----> Dynamic Dispatch
 			e.printStackTrace();
 		}
 		

@@ -10,9 +10,7 @@
     <fullyQualifiedTypeName name="tka_april29_Pattern.C5"/>
     <fullyQualifiedTypeName name="tka_april14_Encapsultaion.C5_A"/>
     <fullyQualifiedTypeName name="tka_april14_Mumbai.C2_B"/>
-    <fullyQualifiedTypeName name="tka_april29_Pattern.C6"/>
     <fullyQualifiedTypeName name="tka_april21_Abstraction.C6_Manager"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="tka_april21_Abstraction.C8_TestEmployee"/>
     <fullyQualifiedTypeName name="tka_april21_Abstraction.C7_Employee"/>
     <fullyQualifiedTypeName name="tka_april21_Abstraction.C09_Account"/>
@@ -27,4 +25,11 @@
     <fullyQualifiedTypeName name="tka_april24_Static.C3_PrinterDriver"/>
     <fullyQualifiedTypeName name="tka_april24_Static.C3_A"/>
     <fullyQualifiedTypeName name="tka_april24_Static.C5_Z"/>
+    <fullyQualifiedTypeName name="tka_may13_Throw_Throws.C7_NameInvalidExp"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="tka_april25_Static_Revision.C2_A"/>
+    <fullyQualifiedTypeName name="tka_april25_Static_Revision.C2_A.NestedB"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="tka_april29_Pattern.C6"/>
+    <fullyQualifiedTypeName name="tka_april25_Static_Revision.C6_Q"/>
 </qualifiedTypeNameHistroy>

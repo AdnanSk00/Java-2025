@@ -1,0 +1,13 @@
+package tka_april25_Static_Revision;
+
+// Can we override static method?
+// Answer - NO
+public class C6_Q extends C5_P{
+		
+	@Override
+	void m1() {
+		System.out.println("Hello---GM");
+	}
+	
+	
+}

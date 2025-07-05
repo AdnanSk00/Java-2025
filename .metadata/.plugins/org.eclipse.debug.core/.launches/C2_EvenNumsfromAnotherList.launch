@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/JDK_8/src/tka_june5_stream_api/C2_EvenNumsfromAnotherList.java"/>
+        <listEntry value="/JDK_8/src/tka_june3_stream_api/C2_EvenNumsfromAnotherList.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="tka_june5_stream_api.C2_EvenNumsfromAnotherList"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="tka_june3_stream_api.C2_EvenNumsfromAnotherList"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="JDK_8"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JDK_8"/>
 </launchConfiguration>

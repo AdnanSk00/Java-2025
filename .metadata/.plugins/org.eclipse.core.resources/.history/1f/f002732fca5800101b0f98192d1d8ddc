@@ -1,0 +1,9 @@
+package tka_may13_Throw_Throws;
+
+public class C7_NameInvalidExp extends Exception {
+	
+	public C7_NameInvalidExp() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,34 @@
+package tka_may14_throws_finally;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class C1_A {	// Raza - bike owner
+	
+	void driveA() {
+		try {
+			this.useBike();
+		} catch (Exception e) {
+			System.out.println("Raza filling petrol");
+			e.printStackTrace();
+		}
+		
+		System.out.println("1 Raza Driving...");
+	}
+	
+	void useBike() throws FileNotFoundException, NullPointerException  {
+		System.out.println("KTM in use");
+		// Petrol problem - FileNotFound --- Solution --> try-catch
+		
+//			FileInputStream fis = new FileInputStream("");
+	}
+	
+	
+}
+
+// Here code Summary -:
+// Ram has KTM bike. He has to drive bike but his bike's petrol meter is not working properly.
+// Ram is already entering petrol before going outside means we throws FileNotFoundException. Means that if any exception occurs or petrol ends so we handle it with try & catch, we fill petrol.
+// Ram go to drive. Now understand - if we write try-catch in useBike() or at home so Ram have to come at home to fill petrol but
+// We write try-catch in drive() means ram fills petrol when he drives, no need to come at home to fill petrol.
+// So useBike() indicate that before going outside, if petrol available or not in bike, we have to fill petrol means if exceptions occurs or not, we have to throws exception(NullPointerException).

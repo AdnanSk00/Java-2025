@@ -1,0 +1,5 @@
+package tka_may13_Throw_Throws;
+
+public class C7_NameInvalidExp extends Exception {
+
+}

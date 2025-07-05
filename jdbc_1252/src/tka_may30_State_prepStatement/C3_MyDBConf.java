@@ -18,6 +18,7 @@ public class C3_MyDBConf {
 			userId = "Adnan";
 			pass = "root";
 			con = DriverManager.getConnection(url, userId, pass);
+			System.out.println("Connection done...");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

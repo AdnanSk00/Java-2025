@@ -1,0 +1,27 @@
+package tka_may13_Throw_Throws;
+
+public class UserException {
+	public static void main(String[] args) throws AgeInvalidExp{
+		
+		
+		try {
+			
+			int age = -7;
+			
+			if(age > 0) {
+				int useDb = age;
+				System.out.println(useDb);			
+				throw new NameInvalidExp();
+			}
+			else {
+				throw new AgeInvalidExp();	// [Develper]
+			}
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("thanks...");
+	}
+}

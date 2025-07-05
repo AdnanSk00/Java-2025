@@ -1,0 +1,26 @@
+package tka_april25_Static_Revision;
+
+import tka_april25_Static_Revision.C2_A.NestedB;
+
+public class C3_TestA {
+	
+	public static void main(String[] args) {
+		
+//		C2_A objA = new C2_A();
+//		System.out.println(objA.a);
+//		objA.m1A();
+//		
+//		System.out.println("------------");
+//		
+//		NestedB objB = objA.new NestedB();
+//		System.out.println(objB.b);
+//		objB.m1B();
+
+		System.out.println("------------");
+		
+		C2_A.NestedB objB = new C2_A.NestedB();
+		System.out.println(objB.b);
+		objB.m1B();
+		
+	}
+}

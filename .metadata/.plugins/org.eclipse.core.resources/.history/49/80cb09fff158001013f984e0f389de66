@@ -1,0 +1,15 @@
+package tka_april25_Static_Revision;
+
+// Can we override static method?
+
+public class C5_P {
+	
+	public static void main(String[] args) {		
+		System.out.println("Hello 1st main()");
+	}
+	
+	public static void main(String[] args, int a) {
+		System.out.println("Hello 2nd main()");
+	}
+	
+}

@@ -1,0 +1,17 @@
+package tka_april25_Static_Revision;
+
+//Can we override static method? --> No
+//Can we override constructor? --> No
+
+public class C6_Q extends C5_P{
+	
+	public C5_P() {
+		// TODO Auto-generated constructor stub
+	}
+	
+//	@Override
+//	void m1() {
+//		System.out.println("Hello---GM");
+//	}
+	
+}

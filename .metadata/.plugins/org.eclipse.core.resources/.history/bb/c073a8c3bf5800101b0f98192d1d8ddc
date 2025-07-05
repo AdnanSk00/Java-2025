@@ -1,0 +1,23 @@
+package tka_may13_Throw_Throws;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class C3_CTDemo {
+	public static void main(String[] args) {
+		
+		try {
+			int a = 1/ 0;	// raise --
+			FileInputStream fis = new FileInputStream("adnsk.txt");
+//			FileInputStream fis = new FileInputStream("ss.txt");
+			System.out.println("File Ready");
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		
+//		int a = 1 / 0;		// Runctime Exc - no warning			
+		System.out.println("Thanks ***");
+		
+	}
+}

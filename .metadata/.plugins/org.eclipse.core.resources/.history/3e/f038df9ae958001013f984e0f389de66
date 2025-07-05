@@ -1,0 +1,14 @@
+package tka_april25_Static_Revision;
+
+public class C2_A {
+	
+	class C3_NestedA{
+//		class OrNested{}	// Ok
+		
+		
+	}
+	
+	void m1() {		// objA --> GC
+		
+	}
+}

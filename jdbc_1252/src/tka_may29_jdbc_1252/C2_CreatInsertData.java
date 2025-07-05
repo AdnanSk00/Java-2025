@@ -20,7 +20,7 @@ public class C2_CreatInsertData {
 		
 		Statement st = con.createStatement();	// new StatementImp();
 		
-		String query = "insert into student values(9, 'salt', 45.1)";
+		String query = "insert into student values(6, 'brook', 61.4)";
 //		String query = "alter table student add rank int";
 		
 		int rowCount = st.executeUpdate(query);		// DML -- insert

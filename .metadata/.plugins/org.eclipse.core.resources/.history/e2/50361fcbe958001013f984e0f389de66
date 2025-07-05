@@ -1,0 +1,19 @@
+package tka_april25_Static_Revision;
+
+public class C2_A {
+	
+	int a = 10;
+	void m1A() {
+		System.out.println("A-m1()---");
+	}
+	
+	class C3_NestedA{
+//		class OrNested{}	// Ok
+		
+		
+	}
+	
+	void m1() {		// objA --> GC -- no
+		
+	}
+}

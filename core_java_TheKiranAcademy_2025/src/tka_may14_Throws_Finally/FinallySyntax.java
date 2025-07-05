@@ -1,4 +1,4 @@
-package tka_may14_Throws_Finally;
+package tka_may14_throws_finally;
 
 public class FinallySyntax {
 	public static void main(String[] args) {
@@ -9,7 +9,9 @@ public class FinallySyntax {
 //		finally {
 //			
 //		}
+		
 //		----------------------------
+		
 		try {
 			
 		}catch(Exception e){
