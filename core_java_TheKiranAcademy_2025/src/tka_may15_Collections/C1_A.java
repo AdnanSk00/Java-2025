@@ -11,7 +11,7 @@ public class C1_A {
 		ArrayList al = new ArrayList();
 		System.out.println("Size > " + al.size());
 		
-		al.add(11);		// .add(new integer(11)) - soln in Typecasting.java
+		al.add(11);		// .add(new Integer(11)) - soln in Typecasting.java
 		
 		boolean b = al.add("java");		// return boolean
 		System.out.println(b);
@@ -20,7 +20,7 @@ public class C1_A {
 		al.add(77.8f);
 		al.add(77.9f);
 //		int t = 56;
-//		al.add(t);		// int value object -->  new integer(t)
+//		al.add(t);		// int value object -->  new Integer(t)
 		
 		
 //		al.remove(2);

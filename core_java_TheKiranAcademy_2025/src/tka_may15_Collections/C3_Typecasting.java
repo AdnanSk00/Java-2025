@@ -34,8 +34,8 @@ public class C3_Typecasting {
 		System.out.println(f2);
 		
 		
-		// al.add(11);	// al.add(new integer(11));
-		// object obj = new integer(11);
+		// al.add(11);	// al.add(new Integer(11));
+		// Object obj = new Integer(11);
 		// al.add(obj);
 	}
 }

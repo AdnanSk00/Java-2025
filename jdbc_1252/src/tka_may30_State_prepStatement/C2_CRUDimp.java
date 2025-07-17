@@ -76,7 +76,7 @@ public class C2_CRUDimp {
 //			query = "update student set sid = 19 where name = 'Roy'";
 //			query = "update food set price = 150 where name = 'Biryani'";
 //			query = "update food set Quantity = 'full' where name = 'Biryani'";
-			query = "update food set Quantity = 'half' where name = 'Paneer'";
+			query = "update food set Price = 100 where id = 4";
 			
 			rowCount = st.executeUpdate(query);		// DML -- update
 			

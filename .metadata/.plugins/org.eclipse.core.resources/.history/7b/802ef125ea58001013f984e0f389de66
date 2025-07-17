@@ -1,9 +1,0 @@
-package tka_april25_Static_Revision;
-
-public class C3_TestA {
-	
-	public static void main(String[] args) {
-		
-		C2_A obj = new C2_A();
-	}
-}

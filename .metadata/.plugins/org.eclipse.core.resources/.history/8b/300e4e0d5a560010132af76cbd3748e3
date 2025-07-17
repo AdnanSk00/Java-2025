@@ -1,9 +1,0 @@
-package tka_april21_Abstraction;
-
-public abstract class C09_Account {
-	
-	
-	abstract void deposite();
-	abstract void withdraw(float balance2);
-	
-}

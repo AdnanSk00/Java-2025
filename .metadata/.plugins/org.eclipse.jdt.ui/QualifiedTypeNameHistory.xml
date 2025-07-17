@@ -32,4 +32,5 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="tka_april29_Pattern.C6"/>
     <fullyQualifiedTypeName name="tka_april25_Static_Revision.C6_Q"/>
+    <fullyQualifiedTypeName name="sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType"/>
 </qualifiedTypeNameHistroy>

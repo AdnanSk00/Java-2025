@@ -12,7 +12,7 @@ public class C4_AccessArraylist {
 		names.add("Nashik");
 		names.add("string");
 		
-		for(Object nm : names) {
+		for(Object nm : names) {		// Dynamic Dispatch
 			System.out.println(nm);
 		}
 		
