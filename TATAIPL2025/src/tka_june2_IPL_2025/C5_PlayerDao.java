@@ -75,17 +75,41 @@ public class C5_PlayerDao {
 	public String updatePlayerTeam(String playerName, String teamName) {
 		try {
 			st = con.createStatement();
-//			query = "update players set TeamName '" + teamName + "' where name = '" + playerName + "'";
-			query = "update players set teamName = 'GT' where name = 'Hardik'";
-			System.out.println(query);
+			query = "update players set TeamName = '" + teamName + "' where name = '" + playerName + "'";
+//			query = "update players set teamName = 'GT' where name = 'Hardik'";
+//			System.out.println(query);
 			
 			rowCount = st.executeUpdate(query);
-			return teamName + " >> Updated Successfully...";
-		}
-		catch (Exception e) {
+			return teamName + " >> updated successfully...";
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		return teamName + " >> Failed to update";
+		return teamName + " >> failed to update";
+	}
+
+	public String updatePlayerRuns(String playerName, int runs) {
+		try {
+			st = con.createStatement();
+			query = "update players set runs = " + runs + " where name = '" + playerName + "'";
+			rowCount = st.executeUpdate(query);
+			return runs + " >> updated successfully...";
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return runs + " >> failed to update";
+	}
+
+	public String deletePlayer(String playerName) {
+		try {
+			st = con.createStatement();
+			query = "delete from players where name = '" + playerName + "'";
+//			query = "alter table players drop column runs";
+			rowCount = st.executeUpdate(query);
+			return playerName + " >> deleted successfully...";
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return playerName + " >> failed to delete";
 	}
 }

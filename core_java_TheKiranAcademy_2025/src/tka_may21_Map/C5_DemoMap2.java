@@ -15,7 +15,7 @@ public class C5_DemoMap2 {
 //		Map <String, Integer> mp = new TreeMap<>();	// does not support null key but support null value
 //		Map <String, Integer> mp = new LinkedHashMap<>();	// order - support null
 
-		Map <String, Integer> mp = new Hashtable<>();	// random
+		Map <String, Integer> mp = new Hashtable<>();	// random	- Exception(not support null)
 //		Note: Hashtable<>() does not support any null key or null value.
 		
 		mp.put("Jaiswal", 36);

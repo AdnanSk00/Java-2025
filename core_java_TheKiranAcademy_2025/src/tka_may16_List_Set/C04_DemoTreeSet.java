@@ -8,7 +8,9 @@ public class C04_DemoTreeSet {
 	public static void main(String[] args) {
 		
 		System.out.println("> TreeSet ============");
-		Set<Integer> ts = new TreeSet<>();
+		
+//		TreeSet<Integer> ts = new TreeSet<>();
+		Set<Integer> ts = new TreeSet<>();		// DD
 		ts.add(11);			// sorted - no duplication
 		ts.add(7);
 		ts.add(44);

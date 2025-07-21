@@ -13,10 +13,10 @@ public class C1_TestConnection {
 		Driver d = new Driver();
 //		
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		System.out.println("Driver loaded");
+		System.out.println("Driver loaded...");
 
 		String url = "jdbc:mysql://localhost:3306/db_1252";
-		String userId = "root";
+		String userId = "Adnan";
 		String pass = "root";
 		DriverManager.getConnection(url, userId, pass);
 //		

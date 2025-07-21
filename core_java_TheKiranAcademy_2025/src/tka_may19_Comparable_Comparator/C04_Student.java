@@ -1,7 +1,7 @@
 package tka_may19_Comparable_Comparator;
 
 public class C04_Student {
-//public class C04_Student implements Comparable<C04_Student>{		// sorting by int
+//	public class C04_Student implements Comparable<C04_Student>{		// sorting by int(only one item)
 	
 	int id;				// primitive --> extra functionality
 	String name;		// class obj

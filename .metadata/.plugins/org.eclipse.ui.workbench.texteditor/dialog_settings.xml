@@ -6,10 +6,14 @@
 		<item key="DIALOG_Y_ORIGIN" value="240"/>
 	</section>
 	<section name="java.lang.Class">
-		<item key="replaceBarOpen" value="false"/>
+		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="step"/>
 			<item value="textEditor.getAction(&quot;COPY&quot;).run"/>
 			<item value="CUT"/>
+		</list>
+		<list key="replacehistory">
+			<item value="case"/>
 		</list>
 	</section>
 </section>

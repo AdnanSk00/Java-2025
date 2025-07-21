@@ -31,24 +31,31 @@ public class C01_RemoveDuplicateFromList{
 		System.out.println("nums > " + nums);
 				
 //		Set<Integer> setNums = new HashSet<>();
-//		for(Integer n : nums) {		// step 1
+//		for(Integer n : nums) {												// case 1
 //			setNums.add(n);
 //		}
-//		setNums.addAll(nums);		// step 2
 		
-//		Set<Integer> setNums = new HashSet<>(nums);		// step 3
+//		Set<Integer> setNums = new HashSet<>();
+//		setNums.addAll(nums);												// case 2
+		
+//		Set<Integer> setNums = new HashSet<>(nums);							// case 3
 		
 //		System.out.println("setNums > " + setNums.toStrig());
 		
-//		System.out.println("setNums > " + new HashSet<>(nums));		// Step 4 - Method calling chain
+//		System.out.println("setNums > " + new HashSet<>(nums));				// case 4 - Method calling chain
 		new HashSet<>(nums).forEach(System.out::println);
 		
+//		--------------------------------------------------------
 		
-//		List<Integer> uniqNumsList = new ArrayList<>(setNums);	// step 2
-//		uniqNumsList.addAll(setNums);							// step 3
+//		List<Integer> uniqNumsList = new ArrayList<>();
+//		uniqNumsList.addAll(setNums);										// case 2
+
+//		List<Integer> uniqNumsList = new ArrayList<>(setNums);				// case 3
 		
-//		List<Integer> uniqNumsList = new ArrayList<>(new HashSet<>(nums));		// step 4
+//		List<Integer> uniqNumsList = new ArrayList<>();						// case 4
 //		uniqNumsList.addAll(new HashSet<>(nums));
+		
+//		List<Integer> uniqNumsList = new ArrayList<>(new HashSet<>(nums));	// case 5
 		
 //		System.out.println("uniqNumsList > " + uniqNumsList);
 		

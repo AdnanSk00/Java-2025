@@ -16,13 +16,14 @@ public class C4_PlayerService {
 	String query = null;
 	ResultSet rs = null;
 	int maxRuns = 0;
+	int maxwickets = 0;
 
 	public C4_PlayerService() {
 		dao = new C5_PlayerDao();
 	}
 	
 	List<C2_Player> getPlayersList() {
-		dao = new C5_PlayerDao();
+//		dao = new C5_PlayerDao();
 		playerList = dao.getPlayersList();
 		
 		return playerList;
@@ -65,16 +66,16 @@ public class C4_PlayerService {
 		return playerListTeam;
 	}
 
-	public List<C2_Player> getPlayersByRole(String batsman) {
-		List<C2_Player> playerListBatsman = new ArrayList<C2_Player>();
+	public List<C2_Player> getPlayersByRole(String role) {
+		List<C2_Player> playerListOfRole = new ArrayList<C2_Player>();
 		
 		playerList = this.getPlayersList();
 		for(C2_Player player : playerList) {
-			if(player.getRole().equalsIgnoreCase(batsman)) {
-				playerListBatsman.add(player);
+			if(player.getRole().equalsIgnoreCase(role)) {
+				playerListOfRole.add(player);
 			}
 		}
-		return playerListBatsman;
+		return playerListOfRole;
 	}
 
 	public C2_Player getPlayersByHighRuns() {
@@ -84,14 +85,14 @@ public class C4_PlayerService {
 		try {
 			st = con.createStatement();			// new StatementImp();
 			
-			query = "select max(wicket) from players";
+			query = "select max(runs) from players";
 			rs = st.executeQuery(query);		// DQL -- select  arr[][]
 			if(rs.next()) {
 				maxRuns = rs.getInt(1);
 			}
-//			System.out.println(maxRuns);
+			System.out.println(maxRuns);
 			for(C2_Player player : playerList) {
-				if(player.getWickets()== maxRuns) {
+				if(player.getRuns() == maxRuns) {
 					return player;
 				}
 //				rs.next();
@@ -102,15 +103,45 @@ public class C4_PlayerService {
 		}		
 		return null;
 	}
+	
+	public C2_Player getPlayersByHighWickets() {
+		playerList = this.getPlayersList();
+		con = C1_MyDBConf.getMyDBConnection();
+		try {
+			st = con.createStatement();			// new StatementImp();
+			query = "select max(wickets) from players";
+			rs = st.executeQuery(query);		// DQL -- select  arr[][]
+			if(rs.next()) {
+				maxwickets = rs.getInt(1);
+			}
+			System.out.println(maxwickets);
+			for(C2_Player player : playerList) {
+				if(player.getWickets() == maxwickets) {
+					return player;
+				}
+//				rs.next();
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
 
 	public String insertNewPlayers(C2_Player newPlayer) {
 		// No extra logic for insert
 		String msg = dao.insertNewPlayers(newPlayer);
-		
 		return msg;
 	}
 
 	public String updatePlayerTeam(String playerName, String teamName) {
 		return dao.updatePlayerTeam(playerName, teamName);
+	}
+
+	public String updatePlayerRuns(String playerName, int runs) {
+		return dao.updatePlayerRuns(playerName, runs);
+	}
+
+	public String deletePlayer(String playerName) {
+		return dao.deletePlayer(playerName);
 	}
 }

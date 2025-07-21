@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-public class C02_VectorInList {
+public class C02_VectorinList {
 	public static void main(String[] args) {
 		
 		List<String> names = new Vector<>();

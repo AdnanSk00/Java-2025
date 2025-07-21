@@ -23,3 +23,5 @@ public class C1_Player {
 	}
 	
 }
+
+//https://chatgpt.com/share/687d3362-5e90-8003-9184-394afb0cc57d

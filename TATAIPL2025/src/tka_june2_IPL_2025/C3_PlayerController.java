@@ -31,13 +31,18 @@ public class C3_PlayerController {
 		return playerList;
 	}
 
-	public List<C2_Player> getPlayersByRole(String batsman) {
-		playerList = service.getPlayersByRole(batsman);
+	public List<C2_Player> getPlayersByRole(String role) {
+		playerList = service.getPlayersByRole(role);
 		return playerList;
 	}
 
 	public C2_Player getPlayersByHighRuns() {
 		player = service.getPlayersByHighRuns();
+		return player;
+	}
+	
+	public C2_Player getPlayersByHighWickets() {
+		player = service.getPlayersByHighWickets();
 		return player;
 	}
 
@@ -48,6 +53,14 @@ public class C3_PlayerController {
 
 	public String updatePlayerTeam(String playerName, String teamName) {
 		return service.updatePlayerTeam(playerName, teamName);
+	}
+
+	public String updatePlayerRuns(String playerName, int runs) {
+		return service.updatePlayerRuns(playerName, runs);
+	}
+
+	public String deletePlayer(String playerName) {
+		return service.deletePlayer(playerName);
 	}
 
 }

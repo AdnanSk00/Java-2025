@@ -8,7 +8,7 @@ import java.util.Collections;
 public class C07_StudentTreeSetDemo {
 	public static void main(String[] args) {
 		
-		List<C04_Student> studTreeSet = new ArrayList<>();	// for int
+		List<C04_Student> studTreeSet = new ArrayList<>();
 		// TreeSet.add() --> Comparable.compareTo()		// byDefault method
 		// List --> Comparator --> Collections.sort();
 		studTreeSet.add(new C04_Student(56, "Babar", 198.6f));

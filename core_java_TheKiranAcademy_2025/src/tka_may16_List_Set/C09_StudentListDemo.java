@@ -20,7 +20,10 @@ public class C09_StudentListDemo {
 		studArrayList.add(s2);
 		studArrayList.add(s1);
 		studArrayList.add(s4);		
-		for(Object s : studArrayList) {
+		
+		
+//		for(C08_Student s : studArrayList) {
+		for(Object s : studArrayList) {			// DD
 			System.out.println(s);
 		}
 		

@@ -12,7 +12,8 @@ public class C4_AccessArraylist {
 		names.add("Nashik");
 		names.add("string");
 		
-		for(Object nm : names) {		// Dynamic Dispatch
+//		for(String nm : names) {
+		for(Object nm : names) {		// Dynamic Dispatch	- Object str = new String();
 			System.out.println(nm);
 		}
 		

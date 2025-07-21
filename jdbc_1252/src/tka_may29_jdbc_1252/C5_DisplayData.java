@@ -25,10 +25,10 @@ public class C5_DisplayData {
 		
 		ResultSet rs = st.executeQuery(query);		// DQL -- select  arr[][]
 		
-//		System.out.println(rs);		// point to columns name's row
+		System.out.println(rs);		// rs - point to columns name's row
 		
-//		boolean IsNext = rs.next();			// point to 1st row --> limit 2
-//		System.out.println("IsNext > " + IsNext);
+		boolean IsNext = rs.next();			// point to 1st row --> limit 2
+		System.out.println("IsNext > " + IsNext);
 		
 //		Note:- row data index start 0,1,2... while column start 1,2,3...
 		
