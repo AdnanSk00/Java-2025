@@ -36,7 +36,7 @@ public class C2_SCPDemo {
 
         System.out.println("\n --- Same in HEAP ---");
         System.out.println("s1 == s3 : " + (s1 == s3));     // address
-        System.out.println("s1.equals(s3) : " + (s1.equals(s3)));
+        System.out.println("s1.equals(s3) : " + (s1.equals(s3)));	// content
 
         System.out.println("\n --- Same in SCP & HEAP ---");
         System.out.println("a == s2 : " + (a == s2));     // address

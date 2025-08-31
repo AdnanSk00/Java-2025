@@ -3,7 +3,7 @@ package tka_may05_String;
 public class C1_Init {
 //    String :-
 //      > Creation of String in java
-//      > SCP - String Constant Pool  (String memory area)
+//      > SCP - String Constant Pool  (String literals memory area)
 //      > Immutable
 //      > StringBuilder and StringBuffer
 //      > String methods
