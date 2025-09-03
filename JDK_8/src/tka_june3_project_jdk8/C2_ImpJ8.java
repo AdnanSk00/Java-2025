@@ -1,5 +1,5 @@
 
-package tka_june5_project_jdk8;
+package tka_june3_project_jdk8;
 
 
 public class C2_ImpJ8 implements C1_InterfaceJ8{
@@ -11,7 +11,7 @@ public class C2_ImpJ8 implements C1_InterfaceJ8{
 	
 	@Override
 	public void m2Default() {
-		System.out.println("Def Common code");
+		System.out.println("Dev @override");
 	}
 	
 }

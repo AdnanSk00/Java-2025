@@ -22,3 +22,8 @@ public class C1_DemoThread {
 //  Q3) Which is the best way to creat thread?
 //  Q4) Why the runnable interface is best way to creat thread?
 //	Q5) Difference between process and thread?
+//  Q6) What is synchronized keyword ?
+//  Q7) What is GC?
+//  Q8) how to call GC?
+//  Q9) What is finalize()?
+//  Q10) Why finalize used?

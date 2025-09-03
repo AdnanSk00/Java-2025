@@ -1,4 +1,4 @@
-package tka_june3_stream_api;
+package tka_june5_stream_api;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class C3_StringUpperCase {
 		UpperString.add("Consistency");
 		UpperString.add("Rohit");
 		UpperString.add("Rohit");
-		UpperString.add("abd");
+		UpperString.add("Abd");
 		UpperString.add("JavaScript");
 		UpperString.add("Rishabh");
 		UpperString.add("Roy");

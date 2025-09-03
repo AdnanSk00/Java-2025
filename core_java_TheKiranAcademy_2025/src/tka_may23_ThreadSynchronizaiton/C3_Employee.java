@@ -18,7 +18,7 @@ public class C3_Employee {
 
 	@Override
 	protected void finalize() throws Throwable {
-		System.out.println(name + "TATA BYE BYE!");
+		System.out.println(name + " TATA BYE BYE!");
 		super.finalize();
 	}
 	

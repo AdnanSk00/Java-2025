@@ -1,4 +1,4 @@
-package tka_june5_project_jdk8;
+package tka_june3_project_jdk8;
 
 // Government - CellularTeleCom
 public interface C7_Greetings {		// functional interface

@@ -14,7 +14,7 @@ public class C1_Transaction implements Runnable{
 
 	}
 	public C1_Transaction(int txId, double balance) {
-		super(); 
+		super();  
 		this.txId = txId;
 		this.balance = balance;
 	}

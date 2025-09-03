@@ -1,11 +1,14 @@
 
-package tka_june5_project_jdk8;
+package tka_june3_project_jdk8;
 
 
 public interface C3_TestJ8 {
 	public static void main(String[] args) {
 		
-		C2_ImpJ8 obj = new C2_ImpJ8();
+//		C1_InterfaceJ8 obj = new C1_InterfaceJ8();	// error - Can not make obj of interface
+		
+//		C2_ImpJ8 obj = new C2_ImpJ8();
+		C1_InterfaceJ8 obj = new C2_ImpJ8();
 		
 		obj.m1Abst();				// Need object --> class
 		obj.m2Default();			// call by object - object level

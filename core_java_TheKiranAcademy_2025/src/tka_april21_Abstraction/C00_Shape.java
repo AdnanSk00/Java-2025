@@ -54,5 +54,5 @@ public abstract class C00_Shape {		// define 5 functionalities
 // abstract class - 
 //  abstract method and concrete method
 //  If we dont have body/imp then declare that method as 'abstract method'.
-//  If any class having a abstract method, then class should declare as 'abstract class'.
+//  If any class having a abstract method, then class should be declared as 'abstract class'.
 // 	Have data members, methods, constructors

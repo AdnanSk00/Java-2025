@@ -27,3 +27,8 @@ public class C4_ByeObject {
 		a = 0;						// int - not initialize
 	}
 }
+
+//	Garbage Collector (gc) - It is used to clean up our HEAP memory by deleting unused or unclaimed objects
+//	gc process in background automatically.
+//	Eg - e1 = null;		[unclaimed] -- 1000 clean
+//  System.gc() - garbage collector will clean HEAP

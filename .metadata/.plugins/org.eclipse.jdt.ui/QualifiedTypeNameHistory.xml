@@ -35,4 +35,6 @@
     <fullyQualifiedTypeName name="sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="tka_june3_project_jdk8.C1_InterfaceJ8"/>
 </qualifiedTypeNameHistroy>

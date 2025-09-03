@@ -1,5 +1,5 @@
 
-package tka_june5_project_jdk8;
+package tka_june3_project_jdk8;
 
 
 public interface C1_InterfaceJ8 {	// 1. Self - child not update  or	2. common for Child
